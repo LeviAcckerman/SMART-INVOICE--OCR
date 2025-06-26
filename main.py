@@ -2,8 +2,7 @@ from ocr import ocr_from_image
 from extractor import extract_invoice_fields
 from classifier import classify_invoice
 
-image_path = "C:\\Users\Harikumar\\OneDrive\\Pictures\\Screenshots 1\\Screenshot 2025-06-25 141914.png"
-
+image_path = "C:\\Users\\Harikumar\\OneDrive\\Pictures\\Screenshots 1\\Screenshot 2025-06-25 153912.png"
 # Step 1: OCR
 text = ocr_from_image(image_path, preprocess=True)
 print("\n🔍 OCR Text:\n", text)
