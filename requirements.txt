@@ -1,7 +1,7 @@
 streamlit
 pytesseract
-pillow
 opencv-python-headless
+pillow
 scikit-learn
 pandas
 textblob
