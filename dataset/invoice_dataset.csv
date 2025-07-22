@@ -1,11 +1,21 @@
 text,label
-"Invoice from Amazon for electronics purchase",Retail
-"Bill from Tata Power for May 2024",Utility
-"Monthly Zoom subscription invoice",SaaS
-"Payment due for Airtel Broadband",Utility
-"Purchase receipt from Flipkart",Retail
-"Invoice for Canva Pro subscription",SaaS
-"Uber invoice for ride on 12/06/2024",Service
-"Spotify Premium monthly billing",SaaS
-"Electricity bill from TNEB",Utility
-"Swiggy invoice for food order",Retail
+Amazon invoice for electronics purchase,ecommerce
+Flipkart order receipt,ecommerce
+Myntra invoice,ecommerce
+Snapdeal payment receipt,ecommerce
+Meesho seller invoice,ecommerce
+Apollo Hospital bill,medical
+Medical store pharmacy bill,medical
+Diagnostic test invoice,medical
+Emergency room charges,medical
+Clinic consultation bill,medical
+Zara fashion invoice,clothing
+H&M purchase receipt,clothing
+Levi's jeans bill,clothing
+Nike store invoice,clothing
+Adidas apparel receipt,clothing
+Electricity bill from TNEB,utilities
+Water supply bill from municipality,utilities
+Internet charges Airtel,utilities
+Gas bill from Bharat Gas,utilities
+Phone bill from Jio,utilities

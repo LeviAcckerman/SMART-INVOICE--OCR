@@ -1,45 +1,53 @@
-import pytesseract
+from PIL import Image
 import cv2
+import pytesseract
+from textblob import TextBlob
 
-# Set path to the installed Tesseract-OCR binary
-pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+# Optional: for Windows, specify tesseract path
+# pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
+# Keywords that should never be auto-corrected
+SKIP_KEYWORDS = [
+    "Invoice", "Qty", "INVOICE", "GST", "CGST", "SGST", "HSN", "MRP", "PAN",
+    "Acme", "Globex", "USD", "INR", "₹", "$"
+]
 
+def is_correctable(line):
+    """Decide if a line should go through correction."""
+    if any(char.isdigit() for char in line):
+        return False
+    if any(keyword.lower() in line.lower() for keyword in SKIP_KEYWORDS):
+        return False
+    if len(line.strip()) < 4:
+        return False
+    return True
 
-def ocr_from_image(image_path, preprocess=False):
+def smart_spell_correct(text):
     """
-    Extract text from an image using Tesseract OCR.
-    
-    :param image_path: Path to the image file
-    :param preprocess: Whether to apply preprocessing to the image
-    :return: Extracted text as a string
+    Applies smart spell correction only on correctable text lines.
+    Skips lines with numbers, invoice-specific terms, short lines, etc.
     """
-    try:
-        image = cv2.imread(image_path)
-        if image is None:
-            return "[ERROR] Cannot read image. Check path."
+    corrected_lines = []
+    for line in text.splitlines():
+        if is_correctable(line):
+            try:
+                blob = TextBlob(line)
+                corrected = str(blob.correct())
+                corrected_lines.append(corrected)
+            except Exception:
+                corrected_lines.append(line)
+        else:
+            corrected_lines.append(line)
+    return "\n".join(corrected_lines)
 
-        if preprocess:
-            image = preprocess_image(image)
-
-        text = pytesseract.image_to_string(image)
-        return text.strip()
-
-    except Exception as e:
-        return f"[ERROR] OCR failed: {e}"
-
-def preprocess_image(image):
+def extract_text_from_image(image_path):
     """
-    Enhance image for better OCR accuracy.
-    Convert to grayscale, blur, and apply adaptive thresholding.
+    Extracts text from an invoice image and applies smart spelling correction.
     """
-    try:
-        gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
-        blur = cv2.GaussianBlur(gray, (3, 3), 0)
-        thresh = cv2.adaptiveThreshold(blur, 255,
-                                       cv2.ADAPTIVE_THRESH_MEAN_C,
-                                       cv2.THRESH_BINARY, 11, 2)
-        return thresh
-    except Exception as e:
-        print(f"[ERROR] in preprocess_image: {e}")
-        return image  # Fallback to original image
+    image = Image.open(image_path)
+    raw_text = pytesseract.image_to_string(image)
+
+    # SMART spell correction here
+    corrected_text = smart_spell_correct(raw_text)
+
+    return corrected_text
