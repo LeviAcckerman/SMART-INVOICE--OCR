@@ -17,4 +17,3 @@ def apply_filters(img):
         2
     )
 
-    return thresh

@@ -5,3 +5,9 @@ pillow
 scikit-learn
 pandas
 textblob
+python-dateutil
+spacy==3.7.2
+fuzzywuzzy==0.18.0
+python-Levenshtein==0.12.2
+flashtext==2.7
+openpyxl>=3.0.0

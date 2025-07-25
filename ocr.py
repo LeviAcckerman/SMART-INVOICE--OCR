@@ -1,7 +1,7 @@
 from PIL import Image
-import cv2
 import pytesseract
 from textblob import TextBlob
+import fitz  # PyMuPDF
 
 # Optional: for Windows, specify tesseract path
 # pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
@@ -45,9 +45,31 @@ def extract_text_from_image(image_path):
     Extracts text from an invoice image and applies smart spelling correction.
     """
     image = Image.open(image_path)
-    raw_text = pytesseract.image_to_string(image)
-
-    # SMART spell correction here
+    # IMPROVED: Specify language and page segmentation, normalize line endings
+    raw_text = pytesseract.image_to_string(image, lang='eng', config='--psm 6')
+    raw_text = raw_text.replace('\r\n', '\n').replace('\r', '\n')
     corrected_text = smart_spell_correct(raw_text)
-
     return corrected_text
+
+def extract_text_from_pdf(pdf_path):
+    """
+    Extracts text from a PDF. If text is not found, uses OCR on each page.
+    """
+    text = ""
+    with fitz.open(pdf_path) as doc:
+        for page in doc:
+            page_text = page.get_text()
+            if page_text.strip():
+                text += page_text + "\n"
+            else:
+                # If no text, use OCR on image-rendered page (with DPI and language config)
+                try:
+                    pix = page.get_pixmap(dpi=300)
+                except Exception:
+                    pix = page.get_pixmap()
+                img = Image.frombytes("RGB", [pix.width, pix.height], pix.samples)
+                raw_text = pytesseract.image_to_string(img, lang='eng', config='--psm 6')
+                raw_text = raw_text.replace('\r\n', '\n').replace('\r', '\n')
+                corrected_text = smart_spell_correct(raw_text)
+                text += corrected_text + "\n"
+    return text.strip()

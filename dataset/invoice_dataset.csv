@@ -1,21 +1,1083 @@
 text,label
-Amazon invoice for electronics purchase,ecommerce
-Flipkart order receipt,ecommerce
-Myntra invoice,ecommerce
-Snapdeal payment receipt,ecommerce
-Meesho seller invoice,ecommerce
-Apollo Hospital bill,medical
-Medical store pharmacy bill,medical
-Diagnostic test invoice,medical
-Emergency room charges,medical
-Clinic consultation bill,medical
-Zara fashion invoice,clothing
-H&M purchase receipt,clothing
-Levi's jeans bill,clothing
-Nike store invoice,clothing
-Adidas apparel receipt,clothing
-Electricity bill from TNEB,utilities
-Water supply bill from municipality,utilities
-Internet charges Airtel,utilities
-Gas bill from Bharat Gas,utilities
-Phone bill from Jio,utilities
+"Invoice #12345 from ABC Utilities, Amount: $150.75, Date: 2024-06-01",Utility
+"Invoice #98327 - BestBuy Purchase - Total: $349.99",Retail
+"Order #3321, Flipkart - Rs. 520.00 Paid on 2024-06-11",Retail
+"Statement: Netflix Monthly Subscription, Rs. 499.00",Subscription
+"Zomato Order ID: 99373 - Total Paid: ₹350",Food
+"Invoice from PowerGrid for Rs. 1100",Utility
+"Amazon.in order #112-334 - Total ₹799.00",Retail
+"Swiggy order 45821 delivered - ₹420.00",Food
+"Vodafone Idea Postpaid Bill - ₹765.80",Utility
+"Spotify Premium Invoice - Rs. 119.00",Subscription
+"Uber trip receipt #5643, Fare: ₹230",Travel
+"Goibibo Hotel Booking ID #44991 - Amount: ₹3200",Travel
+"Invoice for DTH Recharge - Tata Sky ₹450",Utility
+"Dominos Bill #77891 - ₹560.00",Food
+"H&M India Receipt - ₹2890.00",Retail
+"Monthly Plan Invoice - Amazon Prime - ₹179.00",Subscription
+"BSNL Broadband Bill - ₹990.00",Utility
+"Invoice: Blinkit - ₹150.00 paid via UPI",Food
+"BigBasket Order #88771 - ₹760.00",Retail
+"Jio Fiber Postpaid Invoice ₹999.00",Utility
+"ZEE5 Premium Subscription - ₹699.00",Subscription
+"Ola Ride Receipt - ₹285.00",Travel
+"Invoice from Redbus - Bus Ticket ₹890.00",Travel
+"Recharge: Airtel Mobile Prepaid ₹299.00",Utility
+"Myntra Order #A92821 - ₹1540.00",Retail
+"Invoice: Starbucks Coffee - ₹220.00",Food
+"Invoice: YouTube Premium - ₹129.00",Subscription
+"Invoice from Club Mahindra - ₹25,000 Membership Fee",Travel
+"Invoice: Urban Company Cleaning - ₹799.00",Service
+"Invoice: Swiggy Instamart Order - ₹540.00",Food
+text,label
+"Invoice #1001 from Apollo Hospitals, Amount: ₹15,200.00, Date: 2024-05-01",Medical
+"Invoice #1002 from MedPlus Pharmacy, ₹850.00 on 2024-06-15",Medical
+"Fortis Hospital Bill ID #A112 - Surgery Charges ₹62,500",Medical
+"Pathlab Test Invoice - Thyrocare ₹1,200.00",Medical
+"AIIMS Consultation Fee - ₹500.00",Medical
+"Siemens Invoice #2311 - Industrial Equipment ₹3,20,000",Engineering
+"ABB Motors - Purchase Order #88221 ₹2,45,000",Engineering
+"Invoice from L&T Tech Services - ₹1,50,000 Consulting",Engineering
+"Bosch India - Maintenance Charges ₹12,500",Engineering
+"Invoice: Honeywell Calibration Services - ₹8,750",Engineering
+"Amazon.in Order #993-234 - ₹1,299.00",Retail
+"Flipkart Invoice #10923 - ₹2,599.00",Retail
+"Myntra Order #A9872 - ₹1,750.00",Retail
+"Decathlon Sports Equipment Invoice - ₹3,450",Retail
+"H&M India - ₹1,999.00",Retail
+"Netflix Monthly Subscription - ₹499.00",Subscription
+"ZEE5 Premium Annual Plan - ₹1,299.00",Subscription
+"Spotify Family Plan - ₹179.00",Subscription
+"Disney+ Hotstar Invoice - ₹299.00",Subscription
+"YouTube Premium Subscription - ₹129.00",Subscription
+"Dominos Pizza Invoice #4467 - ₹790.00",Food
+"Zomato Order #89921 - ₹520.00",Food
+"Swiggy Delivery Receipt #73821 - ₹460.00",Food
+"Starbucks Coffee Bill - ₹320.00",Food
+"McDonalds Order - ₹480.00",Food
+"MakeMyTrip Flight Invoice #AF234 - ₹8,500",Travel
+"Ola Ride Invoice - ₹285.00",Travel
+"Redbus Booking - ₹1,100.00",Travel
+"Goibibo Hotel Bill #H5672 - ₹3,200.00",Travel
+"Uber Intercity Ride - ₹1,750.00",Travel
+"Vodafone Postpaid Bill - ₹799.00",Utility
+"BSNL Landline Bill - ₹560.00",Utility
+"Jio Fiber Bill - ₹999.00",Utility
+"Reliance Energy Invoice - ₹1,450.00",Utility
+"Tata Sky Recharge - ₹350.00",Utility
+"Vedantu Online Class - ₹2,500.00",Education
+"Unacademy Premium Invoice - ₹3,000.00",Education
+"Byjus Course Subscription - ₹5,000.00",Education
+"Coursera Data Science Course - ₹4,200.00",Education
+"Udemy Python Bootcamp - ₹449.00",Education
+"UrbanClap Plumbing Services - ₹850.00",Service
+"Urban Company Home Cleaning - ₹1,299.00",Service
+"JustDial Business Listing Renewal - ₹2,000.00",Service
+"Housejoy Repair Service - ₹999.00",Service
+"Quikr Services - ₹650.00",Service
+"Invoice: Apollo Pharmacy - ₹2,300.00",Medical
+"Invoice: Engineering Drawings from CAD Centre - ₹3,800.00",Engineering
+"Invoice from Tata Consultancy - ₹1,20,000 Project Fee",Engineering
+"Invoice: Reliance Retail - Grocery ₹2,900.00",Retail
+"Invoice from Hotstar - ₹399 Annual Sports Pack",Subscription
+text	label
+Amazon Prime Subscription - â‚¹2167	Subscription
+Spotify Premium Invoice - Rs. 4220	Subscription
+Zomato Order ID: 12500 - Total Paid: â‚¹2997	Food
+Uber Broadband Bill - â‚¹4408	Utility
+Invoice from BSNL for Rs. 2497	Utility
+Spotify Premium Invoice - Rs. 1505	Subscription
+Salon Visit Invoice - â‚¹4822 on 12-07-2024	Service
+Dominoâ€™s Bill #31983 - â‚¹3229.00	Food
+UrbanClap Invoice - Home Cleaning - â‚¹4858	Service
+ZEE5 Premium Subscription - â‚¹672	Subscription
+H&M Receipt - â‚¹1609 on 05-09-2024	Retail
+Laundry Service Bill - â‚¹1532	Service
+Redbus Ticket Invoice - Amount: â‚¹2896	Travel
+Swiggy order 73096 delivered - â‚¹1626	Food
+Amazon.in order #99589 - Total â‚¹4903	Retail
+Flipkart Order #36134 - â‚¹4696 paid	Retail
+Dominoâ€™s Bill #89515 - â‚¹3792.00	Food
+Myntra Invoice #33830 - Amount: â‚¹2954	Retail
+UrbanClap Invoice - Home Cleaning - â‚¹2778	Service
+Myntra Invoice #59618 - Amount: â‚¹3333	Retail
+Starbucks Invoice - Amount â‚¹2979	Food
+Goibibo Booking #19843 - â‚¹686	Travel
+Uber trip receipt #21779, Fare: â‚¹4924	Travel
+ZEE5 Premium Subscription - â‚¹4069	Subscription
+Uber Bill - â‚¹3225 paid on 12-05-2024	Utility
+ZEE5 Premium Subscription - â‚¹1452	Subscription
+Spotify Premium Invoice - Rs. 4831	Subscription
+Flipkart Order #70405 - â‚¹3886 paid	Retail
+Amazon Prime Subscription - â‚¹558	Subscription
+Redbus Ticket Invoice - Amount: â‚¹4451	Travel
+Amazon.in order #60088 - Total â‚¹2392	Retail
+Dominoâ€™s Bill #84671 - â‚¹4805.00	Food
+H&M Receipt - â‚¹1485 on 03-06-2024	Retail
+Zomato Order ID: 73795 - Total Paid: â‚¹2462	Food
+Vodafone Bill - â‚¹2814 paid on 02-01-2024	Utility
+Goibibo Electricity Bill - Amount: â‚¹4801	Utility
+H&M Receipt - â‚¹2045 on 15-05-2024	Retail
+Amazon.in order #99347 - Total â‚¹579	Retail
+Uber trip receipt #82962, Fare: â‚¹343	Travel
+Salon Visit Invoice - â‚¹2693 on 02-03-2024	Service
+Salon Visit Invoice - â‚¹4733 on 15-09-2024	Service
+Ola Ride Receipt - â‚¹1916 on 12-05-2024	Travel
+Goibibo Booking #37020 - â‚¹2142	Travel
+ACT Fibernet Electricity Bill - Amount: â‚¹356	Utility
+Flipkart Order #89424 - â‚¹2980 paid	Retail
+Laundry Service Bill - â‚¹4551	Service
+Netflix Monthly Subscription, Rs. 4728	Subscription
+Dominoâ€™s Bill #17912 - â‚¹781.00	Food
+Invoice from UrbanClap for Rs. 1310	Utility
+Salon Visit Invoice - â‚¹3920 on 07-05-2024	Service
+Spotify Premium Invoice - Rs. 4670	Subscription
+Myntra Invoice #54026 - Amount: â‚¹1203	Retail
+Spotify Premium Invoice - Rs. 3453	Subscription
+Tata Sky Electricity Bill - Amount: â‚¹3835	Utility
+Salon Visit Invoice - â‚¹2621 on 20-01-2024	Service
+Starbucks Invoice - Amount â‚¹1269	Food
+Goibibo Broadband Bill - â‚¹3872	Utility
+Swiggy order 18801 delivered - â‚¹2645	Food
+Flipkart Electricity Bill - Amount: â‚¹832	Utility
+Myntra Invoice #36150 - Amount: â‚¹2875	Retail
+UrbanClap Invoice - Home Cleaning - â‚¹3576	Service
+Flipkart Order #26249 - â‚¹3680 paid	Retail
+Netflix Monthly Subscription, Rs. 762	Subscription
+H&M Receipt - â‚¹1044 on 13-04-2024	Retail
+Amazon Prime Subscription - â‚¹1873	Subscription
+Goibibo Booking #22637 - â‚¹1138	Travel
+Amazon Broadband Bill - â‚¹2708	Utility
+Amazon.in order #90045 - Total â‚¹840	Retail
+Redbus Ticket Invoice - Amount: â‚¹1858	Travel
+UrbanClap Invoice - Home Cleaning - â‚¹1708	Service
+Dominoâ€™s Bill #58390 - â‚¹3114.00	Food
+Redbus Ticket Invoice - Amount: â‚¹498	Travel
+Uber Bill - â‚¹2076 paid on 02-08-2024	Utility
+Amazon Prime Subscription - â‚¹4005	Subscription
+Ola Ride Receipt - â‚¹3859 on 26-05-2024	Travel
+Redbus Ticket Invoice - Amount: â‚¹1576	Travel
+ZEE5 Premium Subscription - â‚¹3037	Subscription
+Amazon Prime Subscription - â‚¹3094	Subscription
+H&M Receipt - â‚¹3933 on 13-02-2024	Retail
+Swiggy order 29629 delivered - â‚¹2663	Food
+Myntra Invoice #70274 - Amount: â‚¹3487	Retail
+Spotify Premium Invoice - Rs. 1625	Subscription
+Redbus Ticket Invoice - Amount: â‚¹3514	Travel
+Netflix Monthly Subscription, Rs. 3831	Subscription
+Amazon.in order #45490 - Total â‚¹2590	Retail
+H&M Receipt - â‚¹4361 on 16-03-2024	Retail
+Swiggy order 51125 delivered - â‚¹1122	Food
+Zomato Electricity Bill - Amount: â‚¹138	Utility
+Amazon.in order #95075 - Total â‚¹3759	Retail
+Uber trip receipt #56908, Fare: â‚¹3202	Travel
+UrbanClap Invoice - Home Cleaning - â‚¹3426	Service
+Spotify Premium Invoice - Rs. 1055	Subscription
+Goibibo Booking #65991 - â‚¹4136	Travel
+ZEE5 Premium Subscription - â‚¹1193	Subscription
+Laundry Service Bill - â‚¹3760	Service
+Zomato Order ID: 98747 - Total Paid: â‚¹2817	Food
+Starbucks Invoice - Amount â‚¹3215	Food
+Laundry Service Bill - â‚¹1148	Service
+Dominoâ€™s Bill #79248 - â‚¹2796.00	Food
+Invoice from Uber for Rs. 1387	Utility
+H&M Receipt - â‚¹4788 on 15-08-2024	Retail
+H&M Receipt - â‚¹366 on 28-04-2024	Retail
+Urban Company Electricity Bill - Amount: â‚¹4898	Utility
+Flipkart Order #44619 - â‚¹3502 paid	Retail
+ZEE5 Premium Subscription - â‚¹4117	Subscription
+Salon Visit Invoice - â‚¹3852 on 13-07-2024	Service
+Swiggy order 35324 delivered - â‚¹1507	Food
+Netflix Monthly Subscription, Rs. 1477	Subscription
+Netflix Electricity Bill - Amount: â‚¹820	Utility
+Laundry Service Bill - â‚¹4019	Service
+Spotify Premium Invoice - Rs. 334	Subscription
+Swiggy Electricity Bill - Amount: â‚¹3741	Utility
+Amazon Prime Subscription - â‚¹1526	Subscription
+Urban Company Repair Bill - â‚¹3744	Service
+Uber trip receipt #70778, Fare: â‚¹1622	Travel
+Netflix Monthly Subscription, Rs. 1970	Subscription
+H&M Receipt - â‚¹708 on 13-05-2024	Retail
+Invoice from Goibibo for Rs. 3240	Utility
+Zomato Order ID: 53016 - Total Paid: â‚¹3501	Food
+PowerGrid Broadband Bill - â‚¹1501	Utility
+Goibibo Booking #15964 - â‚¹1794	Travel
+ZEE5 Premium Subscription - â‚¹3764	Subscription
+Netflix Monthly Subscription, Rs. 2322	Subscription
+Uber Broadband Bill - â‚¹4560	Utility
+Amazon.in order #80195 - Total â‚¹2810	Retail
+Ola Ride Receipt - â‚¹316 on 24-03-2024	Travel
+Myntra Invoice #47972 - Amount: â‚¹645	Retail
+Uber trip receipt #72519, Fare: â‚¹4198	Travel
+Spotify Premium Invoice - Rs. 1367	Subscription
+H&M Receipt - â‚¹2861 on 19-09-2024	Retail
+Ola Ride Receipt - â‚¹4460 on 27-07-2024	Travel
+Goibibo Booking #44755 - â‚¹2358	Travel
+Ola Ride Receipt - â‚¹1839 on 02-05-2024	Travel
+Zomato Order ID: 48351 - Total Paid: â‚¹3577	Food
+Uber trip receipt #16710, Fare: â‚¹163	Travel
+H&M Broadband Bill - â‚¹3188	Utility
+Ola Ride Receipt - â‚¹1824 on 01-04-2024	Travel
+Urban Company Repair Bill - â‚¹3471	Service
+UrbanClap Invoice - Home Cleaning - â‚¹4448	Service
+H&M Receipt - â‚¹4346 on 13-09-2024	Retail
+H&M Receipt - â‚¹880 on 06-04-2024	Retail
+Dominoâ€™s Bill #29696 - â‚¹143.00	Food
+Swiggy order 34541 delivered - â‚¹2028	Food
+Goibibo Booking #74321 - â‚¹1444	Travel
+Myntra Invoice #41126 - Amount: â‚¹2620	Retail
+Dominoâ€™s Bill #91725 - â‚¹3931.00	Food
+Starbucks Invoice - Amount â‚¹3856	Food
+Swiggy order 61123 delivered - â‚¹2898	Food
+H&M Receipt - â‚¹1269 on 06-03-2024	Retail
+Ola Ride Receipt - â‚¹3426 on 17-07-2024	Travel
+Swiggy order 13257 delivered - â‚¹4779	Food
+Ola Ride Receipt - â‚¹953 on 04-09-2024	Travel
+Invoice from Tata Sky for Rs. 2975	Utility
+Goibibo Booking #54288 - â‚¹418	Travel
+Zomato Order ID: 80977 - Total Paid: â‚¹2325	Food
+Dominoâ€™s Bill #26010 - â‚¹616.00	Food
+Redbus Ticket Invoice - Amount: â‚¹3680	Travel
+Myntra Invoice #30972 - Amount: â‚¹1805	Retail
+Redbus Ticket Invoice - Amount: â‚¹952	Travel
+UrbanClap Invoice - Home Cleaning - â‚¹2927	Service
+Amazon.in order #42759 - Total â‚¹3313	Retail
+UrbanClap Invoice - Home Cleaning - â‚¹3349	Service
+Goibibo Booking #67758 - â‚¹833	Travel
+H&M Receipt - â‚¹854 on 15-07-2024	Retail
+BSNL Broadband Bill - â‚¹3174	Utility
+Starbucks Invoice - Amount â‚¹2470	Food
+BSNL Electricity Bill - Amount: â‚¹3562	Utility
+Spotify Premium Invoice - Rs. 4227	Subscription
+Urban Company Repair Bill - â‚¹1053	Service
+Spotify Premium Invoice - Rs. 1515	Subscription
+UrbanClap Invoice - Home Cleaning - â‚¹861	Service
+Spotify Premium Invoice - Rs. 1669	Subscription
+H&M Receipt - â‚¹1093 on 21-08-2024	Retail
+ZEE5 Premium Subscription - â‚¹1799	Subscription
+H&M Receipt - â‚¹4939 on 19-08-2024	Retail
+Invoice from Tata Sky for Rs. 2145	Utility
+Salon Visit Invoice - â‚¹4163 on 06-04-2024	Service
+Zomato Bill - â‚¹3174 paid on 19-08-2024	Utility
+Uber trip receipt #52167, Fare: â‚¹230	Travel
+Goibibo Booking #69723 - â‚¹1026	Travel
+Goibibo Booking #69547 - â‚¹1411	Travel
+Swiggy order 62709 delivered - â‚¹4818	Food
+Flipkart Order #66338 - â‚¹2025 paid	Retail
+Laundry Service Bill - â‚¹975	Service
+Goibibo Booking #95971 - â‚¹4607	Travel
+Flipkart Electricity Bill - Amount: â‚¹240	Utility
+Redbus Ticket Invoice - Amount: â‚¹2823	Travel
+Myntra Invoice #59924 - Amount: â‚¹688	Retail
+Starbucks Invoice - Amount â‚¹4034	Food
+ZEE5 Premium Subscription - â‚¹1394	Subscription
+Zomato Order ID: 40307 - Total Paid: â‚¹2762	Food
+Amazon.in order #83113 - Total â‚¹674	Retail
+Netflix Monthly Subscription, Rs. 545	Subscription
+H&M Receipt - â‚¹4400 on 22-08-2024	Retail
+PowerGrid Broadband Bill - â‚¹962	Utility
+H&M Receipt - â‚¹1731 on 12-04-2024	Retail
+ZEE5 Premium Subscription - â‚¹3409	Subscription
+Dominoâ€™s Bill #78357 - â‚¹4524.00	Food
+Zomato Order ID: 61598 - Total Paid: â‚¹3324	Food
+UrbanClap Invoice - Home Cleaning - â‚¹3690	Service
+UrbanClap Invoice - Home Cleaning - â‚¹301	Service
+Starbucks Invoice - Amount â‚¹4935	Food
+Ola Ride Receipt - â‚¹131 on 23-03-2024	Travel
+Uber Electricity Bill - Amount: â‚¹1572	Utility
+Starbucks Invoice - Amount â‚¹4920	Food
+Flipkart Broadband Bill - â‚¹625	Utility
+Swiggy order 29007 delivered - â‚¹4525	Food
+Zomato Order ID: 65025 - Total Paid: â‚¹604	Food
+UrbanClap Invoice - Home Cleaning - â‚¹550	Service
+Urban Company Repair Bill - â‚¹4747	Service
+Spotify Premium Invoice - Rs. 2511	Subscription
+Dominoâ€™s Bill #90026 - â‚¹4219.00	Food
+Ola Ride Receipt - â‚¹4082 on 25-08-2024	Travel
+Netflix Monthly Subscription, Rs. 3367	Subscription
+Flipkart Order #85558 - â‚¹2287 paid	Retail
+Goibibo Booking #66657 - â‚¹2923	Travel
+Invoice from Goibibo for Rs. 3747	Utility
+Ola Ride Receipt - â‚¹437 on 10-01-2024	Travel
+Invoice from PowerGrid for Rs. 3452	Utility
+Laundry Service Bill - â‚¹1887	Service
+Myntra Invoice #16682 - Amount: â‚¹1293	Retail
+Myntra Invoice #93295 - Amount: â‚¹3613	Retail
+Uber Broadband Bill - â‚¹2865	Utility
+Amazon.in order #62526 - Total â‚¹313	Retail
+Swiggy Electricity Bill - Amount: â‚¹1115	Utility
+BSNL Bill - â‚¹4826 paid on 20-05-2024	Utility
+Urban Company Bill - â‚¹3688 paid on 27-08-2024	Utility
+Starbucks Invoice - Amount â‚¹4908	Food
+ZEE5 Premium Subscription - â‚¹4167	Subscription
+Dominoâ€™s Bill #62149 - â‚¹568.00	Food
+Redbus Ticket Invoice - Amount: â‚¹2758	Travel
+Spotify Premium Invoice - Rs. 1921	Subscription
+H&M Receipt - â‚¹2845 on 05-01-2024	Retail
+Swiggy order 24374 delivered - â‚¹2214	Food
+Flipkart Order #95395 - â‚¹3691 paid	Retail
+Flipkart Order #76068 - â‚¹3818 paid	Retail
+Ola Ride Receipt - â‚¹1187 on 20-03-2024	Travel
+Spotify Premium Invoice - Rs. 848	Subscription
+Redbus Ticket Invoice - Amount: â‚¹3131	Travel
+H&M Receipt - â‚¹3696 on 18-05-2024	Retail
+UrbanClap Invoice - Home Cleaning - â‚¹3580	Service
+Goibibo Booking #18243 - â‚¹4933	Travel
+Salon Visit Invoice - â‚¹3956 on 26-03-2024	Service
+Amazon Prime Subscription - â‚¹3072	Subscription
+Netflix Monthly Subscription, Rs. 4183	Subscription
+Amazon Prime Subscription - â‚¹1309	Subscription
+Urban Company Repair Bill - â‚¹2069	Service
+Amazon.in order #54038 - Total â‚¹4888	Retail
+Dominoâ€™s Bill #95254 - â‚¹2350.00	Food
+Goibibo Booking #17536 - â‚¹3902	Travel
+Urban Company Repair Bill - â‚¹3273	Service
+Uber trip receipt #22101, Fare: â‚¹2837	Travel
+Uber trip receipt #48108, Fare: â‚¹810	Travel
+Goibibo Booking #22168 - â‚¹4527	Travel
+Flipkart Electricity Bill - Amount: â‚¹1805	Utility
+PowerGrid Broadband Bill - â‚¹1538	Utility
+BSNL Bill - â‚¹1542 paid on 28-03-2024	Utility
+Laundry Service Bill - â‚¹4094	Service
+Flipkart Order #46092 - â‚¹1845 paid	Retail
+Ola Ride Receipt - â‚¹4967 on 27-03-2024	Travel
+PowerGrid Electricity Bill - Amount: â‚¹641	Utility
+Zomato Bill - â‚¹1676 paid on 12-08-2024	Utility
+Flipkart Order #16098 - â‚¹1741 paid	Retail
+Amazon.in order #60415 - Total â‚¹908	Retail
+ZEE5 Premium Subscription - â‚¹4789	Subscription
+H&M Receipt - â‚¹2153 on 09-01-2024	Retail
+Goibibo Electricity Bill - Amount: â‚¹997	Utility
+Starbucks Invoice - Amount â‚¹4242	Food
+Amazon.in order #49562 - Total â‚¹838	Retail
+H&M Receipt - â‚¹876 on 08-03-2024	Retail
+H&M Bill - â‚¹4124 paid on 03-01-2024	Utility
+Flipkart Order #16564 - â‚¹3930 paid	Retail
+Dominoâ€™s Bill #89414 - â‚¹2107.00	Food
+Netflix Monthly Subscription, Rs. 3774	Subscription
+Tata Sky Broadband Bill - â‚¹629	Utility
+Salon Visit Invoice - â‚¹2500 on 01-03-2024	Service
+PowerGrid Bill - â‚¹2365 paid on 13-03-2024	Utility
+Laundry Service Bill - â‚¹1654	Service
+Redbus Ticket Invoice - Amount: â‚¹3219	Travel
+Goibibo Booking #69501 - â‚¹1934	Travel
+Amazon Prime Subscription - â‚¹3608	Subscription
+Amazon.in order #41967 - Total â‚¹3392	Retail
+Redbus Ticket Invoice - Amount: â‚¹2193	Travel
+H&M Receipt - â‚¹1502 on 14-03-2024	Retail
+UrbanClap Invoice - Home Cleaning - â‚¹1373	Service
+UrbanClap Broadband Bill - â‚¹1540	Utility
+Goibibo Bill - â‚¹3702 paid on 20-06-2024	Utility
+Zomato Order ID: 78428 - Total Paid: â‚¹1592	Food
+Urban Company Repair Bill - â‚¹3247	Service
+ZEE5 Premium Subscription - â‚¹4013	Subscription
+Dominoâ€™s Bill #28115 - â‚¹3375.00	Food
+Urban Company Repair Bill - â‚¹4395	Service
+Myntra Invoice #60713 - Amount: â‚¹756	Retail
+Salon Visit Invoice - â‚¹1063 on 10-05-2024	Service
+Goibibo Booking #96182 - â‚¹3942	Travel
+Uber trip receipt #53799, Fare: â‚¹2275	Travel
+Redbus Ticket Invoice - Amount: â‚¹779	Travel
+Amazon Prime Subscription - â‚¹4338	Subscription
+Swiggy order 92342 delivered - â‚¹3460	Food
+Urban Company Repair Bill - â‚¹2500	Service
+Redbus Ticket Invoice - Amount: â‚¹4573	Travel
+Laundry Service Bill - â‚¹1491	Service
+Ola Ride Receipt - â‚¹527 on 23-01-2024	Travel
+Netflix Monthly Subscription, Rs. 3419	Subscription
+Swiggy order 74395 delivered - â‚¹549	Food
+Flipkart Order #91484 - â‚¹3360 paid	Retail
+Uber trip receipt #59445, Fare: â‚¹436	Travel
+PowerGrid Electricity Bill - Amount: â‚¹945	Utility
+H&M Receipt - â‚¹4286 on 07-04-2024	Retail
+Laundry Service Bill - â‚¹4168	Service
+Ola Ride Receipt - â‚¹1212 on 19-09-2024	Travel
+Dominoâ€™s Bill #29055 - â‚¹3209.00	Food
+Goibibo Bill - â‚¹2064 paid on 24-07-2024	Utility
+Zomato Bill - â‚¹3992 paid on 16-06-2024	Utility
+Swiggy order 28909 delivered - â‚¹2165	Food
+Myntra Invoice #24683 - Amount: â‚¹3824	Retail
+Uber trip receipt #44908, Fare: â‚¹4431	Travel
+Swiggy order 82167 delivered - â‚¹398	Food
+Urban Company Repair Bill - â‚¹4249	Service
+Uber trip receipt #80946, Fare: â‚¹1741	Travel
+Swiggy order 98335 delivered - â‚¹165	Food
+Amazon.in order #28753 - Total â‚¹2836	Retail
+Redbus Ticket Invoice - Amount: â‚¹461	Travel
+Vodafone Broadband Bill - â‚¹2885	Utility
+Myntra Invoice #14844 - Amount: â‚¹1640	Retail
+Invoice from Amazon for Rs. 3927	Utility
+Spotify Premium Invoice - Rs. 1647	Subscription
+Ola Ride Receipt - â‚¹2766 on 11-05-2024	Travel
+Netflix Bill - â‚¹2834 paid on 02-03-2024	Utility
+Dominoâ€™s Bill #12311 - â‚¹2045.00	Food
+Zomato Order ID: 12782 - Total Paid: â‚¹4224	Food
+Salon Visit Invoice - â‚¹2630 on 24-05-2024	Service
+Starbucks Invoice - Amount â‚¹1406	Food
+Starbucks Invoice - Amount â‚¹4857	Food
+Spotify Premium Invoice - Rs. 2482	Subscription
+Invoice from Goibibo for Rs. 3052	Utility
+Flipkart Order #61898 - â‚¹1647 paid	Retail
+Goibibo Booking #38587 - â‚¹4279	Travel
+Ola Ride Receipt - â‚¹434 on 28-07-2024	Travel
+Redbus Ticket Invoice - Amount: â‚¹3679	Travel
+Amazon.in order #62343 - Total â‚¹4527	Retail
+Starbucks Invoice - Amount â‚¹3649	Food
+Myntra Invoice #15266 - Amount: â‚¹3912	Retail
+UrbanClap Invoice - Home Cleaning - â‚¹4747	Service
+Laundry Service Bill - â‚¹3648	Service
+Amazon.in order #94675 - Total â‚¹3537	Retail
+Amazon.in order #78835 - Total â‚¹4107	Retail
+Swiggy order 42359 delivered - â‚¹3122	Food
+Salon Visit Invoice - â‚¹1109 on 22-01-2024	Service
+Zomato Order ID: 70029 - Total Paid: â‚¹1955	Food
+ZEE5 Premium Subscription - â‚¹2843	Subscription
+Salon Visit Invoice - â‚¹2276 on 23-02-2024	Service
+Urban Company Repair Bill - â‚¹1726	Service
+Dominoâ€™s Bill #27815 - â‚¹4629.00	Food
+Laundry Service Bill - â‚¹3216	Service
+Salon Visit Invoice - â‚¹1801 on 26-01-2024	Service
+Zomato Order ID: 27342 - Total Paid: â‚¹2275	Food
+Urban Company Repair Bill - â‚¹1793	Service
+Goibibo Booking #61309 - â‚¹495	Travel
+Swiggy order 64246 delivered - â‚¹426	Food
+Swiggy order 14326 delivered - â‚¹1325	Food
+Swiggy order 14996 delivered - â‚¹2988	Food
+Ola Ride Receipt - â‚¹414 on 06-05-2024	Travel
+Zomato Order ID: 60451 - Total Paid: â‚¹531	Food
+Dominoâ€™s Bill #10772 - â‚¹2879.00	Food
+Myntra Invoice #67880 - Amount: â‚¹4146	Retail
+H&M Receipt - â‚¹1622 on 10-05-2024	Retail
+Goibibo Booking #94334 - â‚¹3072	Travel
+Redbus Ticket Invoice - Amount: â‚¹2975	Travel
+Ola Electricity Bill - Amount: â‚¹498	Utility
+Amazon.in order #63381 - Total â‚¹3070	Retail
+Laundry Service Bill - â‚¹3761	Service
+Goibibo Booking #29326 - â‚¹451	Travel
+Goibibo Broadband Bill - â‚¹2521	Utility
+Spotify Premium Invoice - Rs. 3688	Subscription
+ZEE5 Premium Subscription - â‚¹2336	Subscription
+Swiggy order 73507 delivered - â‚¹1870	Food
+Spotify Premium Invoice - Rs. 3095	Subscription
+Zomato Order ID: 69211 - Total Paid: â‚¹445	Food
+Amazon Bill - â‚¹1551 paid on 07-03-2024	Utility
+UrbanClap Invoice - Home Cleaning - â‚¹4139	Service
+Uber trip receipt #79185, Fare: â‚¹898	Travel
+Urban Company Repair Bill - â‚¹1507	Service
+ACT Fibernet Bill - â‚¹1516 paid on 21-05-2024	Utility
+Flipkart Order #60580 - â‚¹1963 paid	Retail
+Goibibo Booking #71623 - â‚¹3212	Travel
+Spotify Premium Invoice - Rs. 3604	Subscription
+ZEE5 Premium Subscription - â‚¹1135	Subscription
+Uber trip receipt #62970, Fare: â‚¹2012	Travel
+Dominoâ€™s Bill #15699 - â‚¹835.00	Food
+Ola Ride Receipt - â‚¹2035 on 04-02-2024	Travel
+Urban Company Repair Bill - â‚¹3786	Service
+Myntra Invoice #22629 - Amount: â‚¹3070	Retail
+Goibibo Booking #52990 - â‚¹4966	Travel
+Flipkart Order #30148 - â‚¹3912 paid	Retail
+Laundry Service Bill - â‚¹4424	Service
+Uber trip receipt #61375, Fare: â‚¹2056	Travel
+Zomato Order ID: 87419 - Total Paid: â‚¹1951	Food
+Netflix Monthly Subscription, Rs. 4806	Subscription
+Tata Sky Bill - â‚¹4999 paid on 15-06-2024	Utility
+Urban Company Repair Bill - â‚¹4316	Service
+Invoice from ACT Fibernet for Rs. 2630	Utility
+Spotify Premium Invoice - Rs. 1731	Subscription
+Swiggy order 62041 delivered - â‚¹187	Food
+Ola Ride Receipt - â‚¹4016 on 24-03-2024	Travel
+Laundry Service Bill - â‚¹3295	Service
+Spotify Premium Invoice - Rs. 4891	Subscription
+Amazon.in order #74335 - Total â‚¹3301	Retail
+Redbus Ticket Invoice - Amount: â‚¹1194	Travel
+Swiggy order 15874 delivered - â‚¹1729	Food
+Redbus Ticket Invoice - Amount: â‚¹681	Travel
+UrbanClap Invoice - Home Cleaning - â‚¹2485	Service
+Urban Company Repair Bill - â‚¹2449	Service
+Uber trip receipt #92333, Fare: â‚¹373	Travel
+Salon Visit Invoice - â‚¹3407 on 02-05-2024	Service
+Invoice from Amazon for Rs. 346	Utility
+ZEE5 Premium Subscription - â‚¹252	Subscription
+UrbanClap Invoice - Home Cleaning - â‚¹753	Service
+Zomato Broadband Bill - â‚¹4790	Utility
+Netflix Monthly Subscription, Rs. 3347	Subscription
+Amazon Prime Subscription - â‚¹4475	Subscription
+Goibibo Booking #60818 - â‚¹3866	Travel
+Redbus Ticket Invoice - Amount: â‚¹2164	Travel
+Myntra Invoice #65569 - Amount: â‚¹757	Retail
+Goibibo Booking #28354 - â‚¹4767	Travel
+H&M Receipt - â‚¹1570 on 01-05-2024	Retail
+Ola Ride Receipt - â‚¹2621 on 24-08-2024	Travel
+Starbucks Invoice - Amount â‚¹320	Food
+Salon Visit Invoice - â‚¹3042 on 02-08-2024	Service
+Spotify Premium Invoice - Rs. 864	Subscription
+Uber Broadband Bill - â‚¹191	Utility
+Myntra Invoice #67834 - Amount: â‚¹2561	Retail
+Myntra Invoice #32975 - Amount: â‚¹3720	Retail
+Myntra Invoice #42569 - Amount: â‚¹1159	Retail
+Netflix Monthly Subscription, Rs. 947	Subscription
+Goibibo Booking #48429 - â‚¹1180	Travel
+H&M Receipt - â‚¹2035 on 27-04-2024	Retail
+Dominoâ€™s Bill #87584 - â‚¹2914.00	Food
+Uber Electricity Bill - Amount: â‚¹3623	Utility
+Netflix Bill - â‚¹3693 paid on 14-09-2024	Utility
+Flipkart Order #87571 - â‚¹1450 paid	Retail
+Urban Company Repair Bill - â‚¹1448	Service
+Uber trip receipt #44240, Fare: â‚¹3051	Travel
+Redbus Ticket Invoice - Amount: â‚¹3485	Travel
+UrbanClap Invoice - Home Cleaning - â‚¹4484	Service
+Zomato Order ID: 25840 - Total Paid: â‚¹3963	Food
+Redbus Ticket Invoice - Amount: â‚¹3188	Travel
+Urban Company Repair Bill - â‚¹2668	Service
+Urban Company Repair Bill - â‚¹3571	Service
+ZEE5 Premium Subscription - â‚¹1053	Subscription
+UrbanClap Invoice - Home Cleaning - â‚¹753	Service
+Myntra Invoice #20319 - Amount: â‚¹659	Retail
+Swiggy order 76311 delivered - â‚¹1629	Food
+Dominoâ€™s Bill #73143 - â‚¹3231.00	Food
+Urban Company Repair Bill - â‚¹3728	Service
+Vodafone Electricity Bill - Amount: â‚¹4411	Utility
+Salon Visit Invoice - â‚¹1118 on 03-08-2024	Service
+Myntra Invoice #35207 - Amount: â‚¹1394	Retail
+Dominoâ€™s Bill #95414 - â‚¹2652.00	Food
+Spotify Premium Invoice - Rs. 3728	Subscription
+Invoice from Goibibo for Rs. 1151	Utility
+Dominoâ€™s Bill #69691 - â‚¹2242.00	Food
+Ola Ride Receipt - â‚¹2098 on 06-01-2024	Travel
+Goibibo Booking #38921 - â‚¹1092	Travel
+Redbus Ticket Invoice - Amount: â‚¹1631	Travel
+Dominoâ€™s Bill #65535 - â‚¹1976.00	Food
+Zomato Order ID: 18425 - Total Paid: â‚¹3736	Food
+Swiggy order 63005 delivered - â‚¹4387	Food
+Zomato Order ID: 71342 - Total Paid: â‚¹2639	Food
+ZEE5 Premium Subscription - â‚¹2172	Subscription
+Salon Visit Invoice - â‚¹2575 on 18-04-2024	Service
+Urban Company Repair Bill - â‚¹990	Service
+ZEE5 Premium Subscription - â‚¹3580	Subscription
+Swiggy order 10469 delivered - â‚¹556	Food
+Amazon.in order #81986 - Total â‚¹177	Retail
+Amazon Prime Subscription - â‚¹4625	Subscription
+Uber trip receipt #22872, Fare: â‚¹3835	Travel
+Dominoâ€™s Bill #84469 - â‚¹3874.00	Food
+Goibibo Booking #40817 - â‚¹4706	Travel
+Amazon Prime Subscription - â‚¹504	Subscription
+Flipkart Bill - â‚¹2660 paid on 11-01-2024	Utility
+Swiggy order 75450 delivered - â‚¹3892	Food
+ACT Fibernet Broadband Bill - â‚¹2540	Utility
+Uber trip receipt #59168, Fare: â‚¹3487	Travel
+Invoice from Zomato for Rs. 4691	Utility
+Amazon Prime Subscription - â‚¹714	Subscription
+Uber Bill - â‚¹2525 paid on 02-05-2024	Utility
+Dominoâ€™s Bill #55601 - â‚¹3533.00	Food
+Ola Ride Receipt - â‚¹1730 on 09-05-2024	Travel
+Myntra Invoice #56199 - Amount: â‚¹4996	Retail
+ACT Fibernet Electricity Bill - Amount: â‚¹2737	Utility
+Amazon.in order #75188 - Total â‚¹4867	Retail
+Myntra Invoice #15883 - Amount: â‚¹2737	Retail
+Netflix Electricity Bill - Amount: â‚¹905	Utility
+Redbus Ticket Invoice - Amount: â‚¹712	Travel
+Netflix Monthly Subscription, Rs. 1868	Subscription
+Ola Ride Receipt - â‚¹238 on 03-09-2024	Travel
+UrbanClap Invoice - Home Cleaning - â‚¹2893	Service
+Goibibo Booking #89913 - â‚¹2972	Travel
+Flipkart Order #92359 - â‚¹1701 paid	Retail
+Urban Company Repair Bill - â‚¹216	Service
+Flipkart Order #56972 - â‚¹1354 paid	Retail
+Goibibo Booking #67155 - â‚¹1256	Travel
+Invoice from Ola for Rs. 3257	Utility
+Starbucks Invoice - Amount â‚¹3359	Food
+Invoice from H&M for Rs. 2374	Utility
+Netflix Monthly Subscription, Rs. 4670	Subscription
+Dominoâ€™s Bill #87793 - â‚¹4185.00	Food
+Dominoâ€™s Bill #28027 - â‚¹4472.00	Food
+Ola Ride Receipt - â‚¹2665 on 12-06-2024	Travel
+Flipkart Order #92794 - â‚¹4129 paid	Retail
+ZEE5 Premium Subscription - â‚¹1878	Subscription
+Amazon.in order #19470 - Total â‚¹4851	Retail
+Uber trip receipt #50066, Fare: â‚¹2551	Travel
+Uber trip receipt #85734, Fare: â‚¹4613	Travel
+Amazon.in order #90733 - Total â‚¹2839	Retail
+Uber trip receipt #58119, Fare: â‚¹2467	Travel
+ZEE5 Premium Subscription - â‚¹3331	Subscription
+Laundry Service Bill - â‚¹221	Service
+Myntra Invoice #33767 - Amount: â‚¹1580	Retail
+Netflix Monthly Subscription, Rs. 2058	Subscription
+PowerGrid Broadband Bill - â‚¹3167	Utility
+Urban Company Broadband Bill - â‚¹643	Utility
+Starbucks Invoice - Amount â‚¹3351	Food
+Laundry Service Bill - â‚¹1513	Service
+Goibibo Booking #31359 - â‚¹4191	Travel
+Goibibo Broadband Bill - â‚¹2584	Utility
+Goibibo Booking #18349 - â‚¹1098	Travel
+Myntra Invoice #64809 - Amount: â‚¹3239	Retail
+Urban Company Repair Bill - â‚¹3046	Service
+Goibibo Booking #37391 - â‚¹706	Travel
+UrbanClap Electricity Bill - Amount: â‚¹1959	Utility
+Amazon Bill - â‚¹4837 paid on 15-05-2024	Utility
+H&M Receipt - â‚¹2553 on 05-07-2024	Retail
+Salon Visit Invoice - â‚¹4041 on 22-08-2024	Service
+Ola Ride Receipt - â‚¹3101 on 07-09-2024	Travel
+UrbanClap Invoice - Home Cleaning - â‚¹4897	Service
+Flipkart Order #21118 - â‚¹2147 paid	Retail
+BSNL Bill - â‚¹2990 paid on 18-05-2024	Utility
+H&M Receipt - â‚¹1325 on 06-01-2024	Retail
+Goibibo Booking #82241 - â‚¹4621	Travel
+Urban Company Repair Bill - â‚¹4602	Service
+Swiggy order 64947 delivered - â‚¹2980	Food
+ZEE5 Premium Subscription - â‚¹4003	Subscription
+Zomato Order ID: 58317 - Total Paid: â‚¹1021	Food
+Urban Company Repair Bill - â‚¹2679	Service
+Zomato Bill - â‚¹3231 paid on 07-08-2024	Utility
+Invoice from Urban Company for Rs. 4462	Utility
+UrbanClap Broadband Bill - â‚¹1782	Utility
+Netflix Monthly Subscription, Rs. 2211	Subscription
+Amazon Prime Subscription - â‚¹4460	Subscription
+Goibibo Booking #17620 - â‚¹3140	Travel
+Myntra Invoice #75402 - Amount: â‚¹4468	Retail
+Dominoâ€™s Bill #24938 - â‚¹4673.00	Food
+UrbanClap Electricity Bill - Amount: â‚¹4438	Utility
+Uber trip receipt #79570, Fare: â‚¹1403	Travel
+Zomato Electricity Bill - Amount: â‚¹3362	Utility
+UrbanClap Invoice - Home Cleaning - â‚¹2673	Service
+Netflix Bill - â‚¹514 paid on 04-08-2024	Utility
+Redbus Ticket Invoice - Amount: â‚¹4657	Travel
+Netflix Monthly Subscription, Rs. 3624	Subscription
+ZEE5 Premium Subscription - â‚¹4399	Subscription
+Dominoâ€™s Bill #71446 - â‚¹4283.00	Food
+Ola Ride Receipt - â‚¹1184 on 12-04-2024	Travel
+Netflix Monthly Subscription, Rs. 3229	Subscription
+Amazon.in order #59445 - Total â‚¹4596	Retail
+H&M Receipt - â‚¹3097 on 01-04-2024	Retail
+Urban Company Repair Bill - â‚¹1528	Service
+Flipkart Order #35947 - â‚¹4282 paid	Retail
+Zomato Order ID: 39100 - Total Paid: â‚¹2854	Food
+ACT Fibernet Broadband Bill - â‚¹4268	Utility
+Uber trip receipt #34200, Fare: â‚¹320	Travel
+Amazon.in order #33077 - Total â‚¹101	Retail
+H&M Receipt - â‚¹2107 on 14-06-2024	Retail
+Amazon.in order #27577 - Total â‚¹2769	Retail
+Amazon.in order #70176 - Total â‚¹3826	Retail
+Starbucks Invoice - Amount â‚¹4137	Food
+Uber trip receipt #44905, Fare: â‚¹2857	Travel
+Salon Visit Invoice - â‚¹3398 on 21-09-2024	Service
+Netflix Broadband Bill - â‚¹1921	Utility
+Spotify Premium Invoice - Rs. 3894	Subscription
+Swiggy order 85851 delivered - â‚¹2354	Food
+UrbanClap Invoice - Home Cleaning - â‚¹1588	Service
+Laundry Service Bill - â‚¹905	Service
+H&M Receipt - â‚¹2188 on 12-04-2024	Retail
+Spotify Premium Invoice - Rs. 2310	Subscription
+Dominoâ€™s Bill #58874 - â‚¹4217.00	Food
+Salon Visit Invoice - â‚¹1448 on 15-08-2024	Service
+Myntra Invoice #31366 - Amount: â‚¹3222	Retail
+Myntra Invoice #44323 - Amount: â‚¹4350	Retail
+ZEE5 Premium Subscription - â‚¹2140	Subscription
+Netflix Monthly Subscription, Rs. 1688	Subscription
+ZEE5 Premium Subscription - â‚¹820	Subscription
+Spotify Premium Invoice - Rs. 2399	Subscription
+Flipkart Order #53393 - â‚¹999 paid	Retail
+Swiggy order 84541 delivered - â‚¹1335	Food
+Tata Sky Electricity Bill - Amount: â‚¹682	Utility
+UrbanClap Invoice - Home Cleaning - â‚¹4584	Service
+Invoice from Ola for Rs. 191	Utility
+Salon Visit Invoice - â‚¹4700 on 12-01-2024	Service
+Goibibo Booking #19649 - â‚¹779	Travel
+Urban Company Repair Bill - â‚¹4860	Service
+UrbanClap Invoice - Home Cleaning - â‚¹2243	Service
+Goibibo Booking #10902 - â‚¹4154	Travel
+Invoice from ACT Fibernet for Rs. 3824	Utility
+Flipkart Order #74574 - â‚¹1922 paid	Retail
+Zomato Order ID: 88761 - Total Paid: â‚¹4025	Food
+Invoice from Vodafone for Rs. 375	Utility
+H&M Receipt - â‚¹4041 on 09-01-2024	Retail
+Netflix Monthly Subscription, Rs. 4075	Subscription
+Redbus Ticket Invoice - Amount: â‚¹4235	Travel
+Redbus Ticket Invoice - Amount: â‚¹4646	Travel
+Spotify Premium Invoice - Rs. 680	Subscription
+Ola Ride Receipt - â‚¹3104 on 18-04-2024	Travel
+Uber trip receipt #44508, Fare: â‚¹4851	Travel
+Myntra Invoice #73221 - Amount: â‚¹4672	Retail
+Flipkart Order #47545 - â‚¹2805 paid	Retail
+H&M Receipt - â‚¹2545 on 01-02-2024	Retail
+Spotify Premium Invoice - Rs. 1559	Subscription
+PowerGrid Broadband Bill - â‚¹1035	Utility
+Starbucks Invoice - Amount â‚¹2449	Food
+UrbanClap Invoice - Home Cleaning - â‚¹2823	Service
+Netflix Monthly Subscription, Rs. 4739	Subscription
+Goibibo Booking #78484 - â‚¹3723	Travel
+UrbanClap Invoice - Home Cleaning - â‚¹4414	Service
+Netflix Monthly Subscription, Rs. 2342	Subscription
+ZEE5 Premium Subscription - â‚¹1181	Subscription
+Laundry Service Bill - â‚¹1311	Service
+Zomato Order ID: 49407 - Total Paid: â‚¹1692	Food
+Myntra Invoice #78196 - Amount: â‚¹1410	Retail
+Zomato Order ID: 55630 - Total Paid: â‚¹459	Food
+Redbus Ticket Invoice - Amount: â‚¹3145	Travel
+Dominoâ€™s Bill #85707 - â‚¹4908.00	Food
+Amazon Prime Subscription - â‚¹2855	Subscription
+Amazon Prime Subscription - â‚¹2847	Subscription
+Urban Company Repair Bill - â‚¹574	Service
+Uber trip receipt #74911, Fare: â‚¹4500	Travel
+Goibibo Electricity Bill - Amount: â‚¹4485	Utility
+Laundry Service Bill - â‚¹4601	Service
+Zomato Order ID: 19135 - Total Paid: â‚¹2306	Food
+Starbucks Invoice - Amount â‚¹4998	Food
+Amazon Prime Subscription - â‚¹3619	Subscription
+H&M Receipt - â‚¹1347 on 22-03-2024	Retail
+Dominoâ€™s Bill #93858 - â‚¹2811.00	Food
+Ola Bill - â‚¹4897 paid on 24-08-2024	Utility
+Invoice from BSNL for Rs. 759	Utility
+Ola Ride Receipt - â‚¹1849 on 24-04-2024	Travel
+Netflix Monthly Subscription, Rs. 1513	Subscription
+Flipkart Order #43348 - â‚¹542 paid	Retail
+Urban Company Repair Bill - â‚¹1431	Service
+Flipkart Order #62765 - â‚¹4165 paid	Retail
+Invoice from Zomato for Rs. 4395	Utility
+Invoice from Ola for Rs. 2686	Utility
+Starbucks Invoice - Amount â‚¹4806	Food
+Urban Company Repair Bill - â‚¹3654	Service
+Spotify Premium Invoice - Rs. 4623	Subscription
+UrbanClap Electricity Bill - Amount: â‚¹3757	Utility
+Myntra Invoice #38676 - Amount: â‚¹2926	Retail
+Amazon.in order #13250 - Total â‚¹612	Retail
+ZEE5 Premium Subscription - â‚¹3671	Subscription
+Spotify Premium Invoice - Rs. 2370	Subscription
+Netflix Monthly Subscription, Rs. 4948	Subscription
+Urban Company Repair Bill - â‚¹1935	Service
+Tata Sky Broadband Bill - â‚¹3719	Utility
+Ola Ride Receipt - â‚¹4476 on 27-07-2024	Travel
+Goibibo Booking #41231 - â‚¹3263	Travel
+Ola Ride Receipt - â‚¹4597 on 05-07-2024	Travel
+Dominoâ€™s Bill #44484 - â‚¹626.00	Food
+Invoice from Uber for Rs. 4749	Utility
+Goibibo Booking #48864 - â‚¹3326	Travel
+Flipkart Order #67366 - â‚¹1514 paid	Retail
+Zomato Order ID: 33016 - Total Paid: â‚¹3578	Food
+Zomato Order ID: 74060 - Total Paid: â‚¹2263	Food
+Goibibo Booking #89188 - â‚¹1230	Travel
+Myntra Invoice #55957 - Amount: â‚¹258	Retail
+Urban Company Repair Bill - â‚¹2278	Service
+Invoice from Netflix for Rs. 1435	Utility
+Starbucks Invoice - Amount â‚¹3743	Food
+Spotify Premium Invoice - Rs. 983	Subscription
+Spotify Premium Invoice - Rs. 4519	Subscription
+Myntra Invoice #85486 - Amount: â‚¹128	Retail
+Amazon.in order #36217 - Total â‚¹3141	Retail
+H&M Receipt - â‚¹4845 on 05-02-2024	Retail
+Spotify Premium Invoice - Rs. 4504	Subscription
+Tata Sky Electricity Bill - Amount: â‚¹2806	Utility
+Goibibo Booking #55843 - â‚¹1525	Travel
+Starbucks Invoice - Amount â‚¹586	Food
+ZEE5 Premium Subscription - â‚¹2914	Subscription
+Starbucks Invoice - Amount â‚¹4567	Food
+ZEE5 Premium Subscription - â‚¹4577	Subscription
+Laundry Service Bill - â‚¹1947	Service
+Swiggy order 81560 delivered - â‚¹103	Food
+PowerGrid Bill - â‚¹4115 paid on 21-03-2024	Utility
+Amazon.in order #24415 - Total â‚¹803	Retail
+ACT Fibernet Electricity Bill - Amount: â‚¹787	Utility
+Ola Ride Receipt - â‚¹934 on 26-04-2024	Travel
+Zomato Order ID: 37858 - Total Paid: â‚¹920	Food
+Zomato Order ID: 80630 - Total Paid: â‚¹4501	Food
+Myntra Invoice #74153 - Amount: â‚¹782	Retail
+Swiggy order 31627 delivered - â‚¹3472	Food
+Netflix Monthly Subscription, Rs. 3892	Subscription
+Myntra Invoice #36391 - Amount: â‚¹568	Retail
+Starbucks Invoice - Amount â‚¹3728	Food
+Goibibo Booking #91996 - â‚¹408	Travel
+Netflix Monthly Subscription, Rs. 594	Subscription
+Laundry Service Bill - â‚¹843	Service
+UrbanClap Invoice - Home Cleaning - â‚¹4951	Service
+Swiggy order 95121 delivered - â‚¹1066	Food
+Dominoâ€™s Bill #83184 - â‚¹1005.00	Food
+Netflix Monthly Subscription, Rs. 4695	Subscription
+Zomato Bill - â‚¹1679 paid on 05-02-2024	Utility
+Ola Ride Receipt - â‚¹3048 on 17-06-2024	Travel
+Zomato Order ID: 26534 - Total Paid: â‚¹3376	Food
+Salon Visit Invoice - â‚¹1099 on 10-04-2024	Service
+Urban Company Broadband Bill - â‚¹3781	Utility
+Laundry Service Bill - â‚¹4054	Service
+Myntra Invoice #96106 - Amount: â‚¹356	Retail
+Zomato Order ID: 69342 - Total Paid: â‚¹3810	Food
+Urban Company Repair Bill - â‚¹793	Service
+Urban Company Repair Bill - â‚¹4772	Service
+Goibibo Booking #71822 - â‚¹3011	Travel
+Dominoâ€™s Bill #36577 - â‚¹2117.00	Food
+Ola Ride Receipt - â‚¹1606 on 03-01-2024	Travel
+Redbus Ticket Invoice - Amount: â‚¹1303	Travel
+Flipkart Order #89569 - â‚¹3973 paid	Retail
+Goibibo Broadband Bill - â‚¹1650	Utility
+Invoice from Goibibo for Rs. 3754	Utility
+ZEE5 Premium Subscription - â‚¹4375	Subscription
+Dominoâ€™s Bill #45515 - â‚¹3676.00	Food
+Goibibo Electricity Bill - Amount: â‚¹1181	Utility
+Redbus Ticket Invoice - Amount: â‚¹3852	Travel
+Laundry Service Bill - â‚¹2305	Service
+Laundry Service Bill - â‚¹795	Service
+H&M Receipt - â‚¹1053 on 11-01-2024	Retail
+Goibibo Electricity Bill - Amount: â‚¹4116	Utility
+Amazon Prime Subscription - â‚¹4796	Subscription
+Starbucks Invoice - Amount â‚¹1006	Food
+UrbanClap Invoice - Home Cleaning - â‚¹3876	Service
+Invoice from UrbanClap for Rs. 2902	Utility
+Ola Ride Receipt - â‚¹3338 on 09-02-2024	Travel
+Flipkart Order #65949 - â‚¹3888 paid	Retail
+Salon Visit Invoice - â‚¹4328 on 28-07-2024	Service
+Spotify Premium Invoice - Rs. 887	Subscription
+Amazon.in order #53931 - Total â‚¹1122	Retail
+H&M Receipt - â‚¹2022 on 24-09-2024	Retail
+Starbucks Invoice - Amount â‚¹2885	Food
+Uber trip receipt #15908, Fare: â‚¹1443	Travel
+UrbanClap Bill - â‚¹215 paid on 04-02-2024	Utility
+UrbanClap Invoice - Home Cleaning - â‚¹2566	Service
+Uber trip receipt #99920, Fare: â‚¹3683	Travel
+UrbanClap Invoice - Home Cleaning - â‚¹1820	Service
+Ola Bill - â‚¹858 paid on 18-05-2024	Utility
+Dominoâ€™s Bill #84006 - â‚¹3698.00	Food
+Dominoâ€™s Bill #85083 - â‚¹4067.00	Food
+Invoice from Uber for Rs. 3363	Utility
+Ola Broadband Bill - â‚¹4599	Utility
+Swiggy order 95722 delivered - â‚¹2699	Food
+Zomato Order ID: 45406 - Total Paid: â‚¹225	Food
+Netflix Monthly Subscription, Rs. 4287	Subscription
+Swiggy order 94918 delivered - â‚¹1375	Food
+Starbucks Invoice - Amount â‚¹3957	Food
+Ola Ride Receipt - â‚¹4619 on 22-09-2024	Travel
+Ola Ride Receipt - â‚¹3291 on 23-08-2024	Travel
+Dominoâ€™s Bill #33500 - â‚¹1423.00	Food
+Ola Ride Receipt - â‚¹2752 on 23-03-2024	Travel
+Starbucks Invoice - Amount â‚¹1197	Food
+Laundry Service Bill - â‚¹3533	Service
+Starbucks Invoice - Amount â‚¹2794	Food
+Starbucks Invoice - Amount â‚¹821	Food
+Redbus Ticket Invoice - Amount: â‚¹142	Travel
+Goibibo Booking #77197 - â‚¹4764	Travel
+H&M Receipt - â‚¹939 on 04-01-2024	Retail
+Netflix Monthly Subscription, Rs. 256	Subscription
+Salon Visit Invoice - â‚¹4706 on 07-02-2024	Service
+Zomato Order ID: 53371 - Total Paid: â‚¹4523	Food
+Urban Company Electricity Bill - Amount: â‚¹4483	Utility
+Invoice from Vodafone for Rs. 4931	Utility
+Uber Bill - â‚¹3378 paid on 08-04-2024	Utility
+Invoice from Swiggy for Rs. 209	Utility
+Zomato Order ID: 51602 - Total Paid: â‚¹1169	Food
+Invoice from Amazon for Rs. 623	Utility
+Myntra Invoice #27226 - Amount: â‚¹2034	Retail
+Swiggy order 80208 delivered - â‚¹4452	Food
+Ola Ride Receipt - â‚¹179 on 25-07-2024	Travel
+Ola Ride Receipt - â‚¹324 on 24-05-2024	Travel
+Ola Ride Receipt - â‚¹149 on 08-09-2024	Travel
+UrbanClap Invoice - Home Cleaning - â‚¹2027	Service
+UrbanClap Invoice - Home Cleaning - â‚¹4460	Service
+Uber trip receipt #64602, Fare: â‚¹3537	Travel
+Salon Visit Invoice - â‚¹3325 on 17-02-2024	Service
+Uber trip receipt #41886, Fare: â‚¹462	Travel
+Uber trip receipt #62449, Fare: â‚¹2485	Travel
+Dominoâ€™s Bill #37116 - â‚¹1173.00	Food
+Ola Ride Receipt - â‚¹4362 on 25-05-2024	Travel
+Laundry Service Bill - â‚¹201	Service
+ZEE5 Premium Subscription - â‚¹1459	Subscription
+Redbus Ticket Invoice - Amount: â‚¹3774	Travel
+Redbus Ticket Invoice - Amount: â‚¹773	Travel
+Goibibo Booking #89180 - â‚¹4236	Travel
+Dominoâ€™s Bill #88409 - â‚¹827.00	Food
+Urban Company Repair Bill - â‚¹4701	Service
+UrbanClap Broadband Bill - â‚¹2612	Utility
+Starbucks Invoice - Amount â‚¹288	Food
+Salon Visit Invoice - â‚¹2483 on 13-05-2024	Service
+Laundry Service Bill - â‚¹1610	Service
+Redbus Ticket Invoice - Amount: â‚¹1259	Travel
+H&M Receipt - â‚¹3080 on 24-04-2024	Retail
+Amazon.in order #89444 - Total â‚¹4571	Retail
+Salon Visit Invoice - â‚¹1680 on 19-01-2024	Service
+Uber trip receipt #38076, Fare: â‚¹4663	Travel
+Ola Ride Receipt - â‚¹1365 on 05-06-2024	Travel
+H&M Receipt - â‚¹786 on 02-09-2024	Retail
+Ola Ride Receipt - â‚¹1281 on 20-02-2024	Travel
+UrbanClap Invoice - Home Cleaning - â‚¹1231	Service
+Spotify Premium Invoice - Rs. 2885	Subscription
+Redbus Ticket Invoice - Amount: â‚¹4374	Travel
+Spotify Premium Invoice - Rs. 2301	Subscription
+UrbanClap Invoice - Home Cleaning - â‚¹1226	Service
+Uber trip receipt #92943, Fare: â‚¹4076	Travel
+Flipkart Broadband Bill - â‚¹1776	Utility
+ZEE5 Premium Subscription - â‚¹2202	Subscription
+Zomato Broadband Bill - â‚¹978	Utility
+Vodafone Electricity Bill - Amount: â‚¹2028	Utility
+Laundry Service Bill - â‚¹2990	Service
+Urban Company Bill - â‚¹4023 paid on 18-01-2024	Utility
+Starbucks Invoice - Amount â‚¹4909	Food
+H&M Receipt - â‚¹2086 on 11-08-2024	Retail
+Invoice from Flipkart for Rs. 3571	Utility
+Laundry Service Bill - â‚¹3780	Service
+Swiggy Electricity Bill - Amount: â‚¹4984	Utility
+Swiggy order 24888 delivered - â‚¹2210	Food
+Uber Bill - â‚¹2386 paid on 09-01-2024	Utility
+Amazon Prime Subscription - â‚¹1539	Subscription
+Ola Ride Receipt - â‚¹2211 on 03-06-2024	Travel
+Starbucks Invoice - Amount â‚¹379	Food
+Zomato Order ID: 99472 - Total Paid: â‚¹2864	Food
+Amazon.in order #54195 - Total â‚¹4164	Retail
+Flipkart Broadband Bill - â‚¹1274	Utility
+Amazon Prime Subscription - â‚¹2607	Subscription
+UrbanClap Invoice - Home Cleaning - â‚¹4514	Service
+Amazon Prime Subscription - â‚¹1252	Subscription
+Redbus Ticket Invoice - Amount: â‚¹1233	Travel
+Netflix Monthly Subscription, Rs. 3338	Subscription
+Zomato Order ID: 69468 - Total Paid: â‚¹1684	Food
+Uber trip receipt #88232, Fare: â‚¹1611	Travel
+Amazon.in order #52653 - Total â‚¹4875	Retail
+UrbanClap Invoice - Home Cleaning - â‚¹1744	Service
+Zomato Order ID: 30903 - Total Paid: â‚¹401	Food
+Uber trip receipt #44214, Fare: â‚¹398	Travel
+Laundry Service Bill - â‚¹637	Service
+Amazon.in order #39590 - Total â‚¹2934	Retail
+Redbus Ticket Invoice - Amount: â‚¹603	Travel
+Netflix Monthly Subscription, Rs. 1401	Subscription
+Starbucks Invoice - Amount â‚¹4110	Food
+Laundry Service Bill - â‚¹239	Service
+H&M Receipt - â‚¹3731 on 05-01-2024	Retail
+Urban Company Electricity Bill - Amount: â‚¹619	Utility
+Redbus Ticket Invoice - Amount: â‚¹3063	Travel
+Amazon Electricity Bill - Amount: â‚¹3952	Utility
+Myntra Invoice #56116 - Amount: â‚¹1205	Retail
+Uber trip receipt #29332, Fare: â‚¹2159	Travel
+H&M Receipt - â‚¹4699 on 07-09-2024	Retail
+Ola Ride Receipt - â‚¹2082 on 03-08-2024	Travel
+Goibibo Booking #31830 - â‚¹449	Travel
+Myntra Invoice #90394 - Amount: â‚¹4542	Retail
+Spotify Premium Invoice - Rs. 1347	Subscription
+Spotify Premium Invoice - Rs. 3047	Subscription
+Amazon Electricity Bill - Amount: â‚¹135	Utility
+Uber trip receipt #25770, Fare: â‚¹4172	Travel
+Zomato Order ID: 38213 - Total Paid: â‚¹2018	Food
+Spotify Premium Invoice - Rs. 3693	Subscription
+Goibibo Booking #52815 - â‚¹2966	Travel
+ZEE5 Premium Subscription - â‚¹2040	Subscription
+Uber trip receipt #67771, Fare: â‚¹4589	Travel
+UrbanClap Invoice - Home Cleaning - â‚¹2745	Service
+Dominoâ€™s Bill #65156 - â‚¹628.00	Food
+Netflix Monthly Subscription, Rs. 1961	Subscription
+Myntra Invoice #28668 - Amount: â‚¹3996	Retail
+Amazon Prime Subscription - â‚¹1788	Subscription
+Swiggy order 44607 delivered - â‚¹4740	Food
+Zomato Order ID: 70611 - Total Paid: â‚¹4888	Food
+Amazon.in order #33344 - Total â‚¹548	Retail
+Ola Ride Receipt - â‚¹2487 on 02-09-2024	Travel
+Vodafone Electricity Bill - Amount: â‚¹3197	Utility
+Swiggy order 78083 delivered - â‚¹1890	Food
+Invoice from Netflix for Rs. 1138	Utility
+BSNL Electricity Bill - Amount: â‚¹4085	Utility
+Urban Company Repair Bill - â‚¹4046	Service
+Goibibo Booking #31054 - â‚¹2488	Travel
+Amazon.in order #20788 - Total â‚¹4838	Retail
+Swiggy order 40723 delivered - â‚¹4713	Food
+Salon Visit Invoice - â‚¹3498 on 10-08-2024	Service
+UrbanClap Bill - â‚¹591 paid on 21-09-2024	Utility
+Uber trip receipt #83493, Fare: â‚¹2369	Travel
+Salon Visit Invoice - â‚¹2247 on 01-03-2024	Service
+Redbus Ticket Invoice - Amount: â‚¹3222	Travel
+Uber trip receipt #45552, Fare: â‚¹2139	Travel
+Redbus Ticket Invoice - Amount: â‚¹1323	Travel
+Amazon Prime Subscription - â‚¹3165	Subscription
+Flipkart Order #95351 - â‚¹4176 paid	Retail
+UrbanClap Broadband Bill - â‚¹3466	Utility
+H&M Receipt - â‚¹476 on 23-06-2024	Retail
+Urban Company Repair Bill - â‚¹1721	Service
+Laundry Service Bill - â‚¹3667	Service
+H&M Receipt - â‚¹4176 on 26-05-2024	Retail
+Urban Company Repair Bill - â‚¹2636	Service
+Urban Company Repair Bill - â‚¹1448	Service
+Goibibo Booking #74310 - â‚¹3706	Travel
+Amazon.in order #19513 - Total â‚¹3468	Retail
+Amazon.in order #69409 - Total â‚¹3667	Retail
+Zomato Order ID: 87035 - Total Paid: â‚¹2371	Food
+UrbanClap Invoice - Home Cleaning - â‚¹4044	Service
+Flipkart Order #84897 - â‚¹788 paid	Retail
+Vodafone Electricity Bill - Amount: â‚¹790	Utility
+Uber trip receipt #71698, Fare: â‚¹2155	Travel
+Uber trip receipt #87510, Fare: â‚¹1932	Travel
+ACT Fibernet Electricity Bill - Amount: â‚¹4113	Utility
+Invoice from ACT Fibernet for Rs. 218	Utility
+Uber trip receipt #51009, Fare: â‚¹3188	Travel
+Starbucks Invoice - Amount â‚¹2784	Food
+BSNL Broadband Bill - â‚¹1772	Utility
+Netflix Monthly Subscription, Rs. 2639	Subscription
+Swiggy order 56429 delivered - â‚¹1780	Food
+Laundry Service Bill - â‚¹857	Service
+Goibibo Booking #15659 - â‚¹3075	Travel
+Urban Company Broadband Bill - â‚¹878	Utility
+Amazon.in order #67563 - Total â‚¹1370	Retail
+Uber trip receipt #68027, Fare: â‚¹3612	Travel
+Myntra Invoice #55545 - Amount: â‚¹2938	Retail
+Redbus Ticket Invoice - Amount: â‚¹4927	Travel
+Swiggy order 22157 delivered - â‚¹4535	Food
+Goibibo Booking #69338 - â‚¹3122	Travel
+Laundry Service Bill - â‚¹3095	Service
+Swiggy order 49729 delivered - â‚¹3855	Food
+Starbucks Invoice - Amount â‚¹2293	Food
+Laundry Service Bill - â‚¹1298	Service
+ACT Fibernet Electricity Bill - Amount: â‚¹1601	Utility
+Urban Company Repair Bill - â‚¹3371	Service
+Ola Ride Receipt - â‚¹2584 on 24-09-2024	Travel
+UrbanClap Electricity Bill - Amount: â‚¹433	Utility
+Amazon Prime Subscription - â‚¹1557	Subscription
+Uber trip receipt #66615, Fare: â‚¹1655	Travel
+Amazon Bill - â‚¹2568 paid on 09-07-2024	Utility
+Flipkart Order #12568 - â‚¹3506 paid	Retail
+UrbanClap Invoice - Home Cleaning - â‚¹638	Service
+Goibibo Booking #53911 - â‚¹541	Travel
+Flipkart Bill - â‚¹2071 paid on 19-08-2024	Utility
+UrbanClap Broadband Bill - â‚¹2397	Utility
+Zomato Broadband Bill - â‚¹4507	Utility
+Redbus Ticket Invoice - Amount: â‚¹950	Travel
+UrbanClap Bill - â‚¹1431 paid on 26-01-2024	Utility
+Amazon.in order #83877 - Total â‚¹3313	Retail
+Uber Electricity Bill - Amount: â‚¹1359	Utility
+ZEE5 Premium Subscription - â‚¹2425	Subscription
+Uber trip receipt #65109, Fare: â‚¹4653	Travel
+Amazon Prime Subscription - â‚¹1818	Subscription
+Netflix Monthly Subscription, Rs. 1835	Subscription
+Dominoâ€™s Bill #93143 - â‚¹441.00	Food
+Swiggy order 37437 delivered - â‚¹161	Food
+Spotify Premium Invoice - Rs. 227	Subscription
+Salon Visit Invoice - â‚¹1458 on 20-03-2024	Service
+Salon Visit Invoice - â‚¹1515 on 12-06-2024	Service
+Swiggy order 87016 delivered - â‚¹3292	Food
+Goibibo Booking #64155 - â‚¹4328	Travel
+Laundry Service Bill - â‚¹5000	Service
+H&M Receipt - â‚¹2074 on 27-04-2024	Retail
+H&M Receipt - â‚¹4621 on 19-04-2024	Retail
+Uber trip receipt #90767, Fare: â‚¹4349	Travel
+Laundry Service Bill - â‚¹3413	Service
+Uber Broadband Bill - â‚¹2811	Utility
+Uber trip receipt #65519, Fare: â‚¹2269	Travel
+Swiggy order 56862 delivered - â‚¹2534	Food
+ZEE5 Premium Subscription - â‚¹257	Subscription
+Flipkart Order #29369 - â‚¹1480 paid	Retail
+Amazon Prime Subscription - â‚¹4630	Subscription
+Laundry Service Bill - â‚¹2106	Service
+Laundry Service Bill - â‚¹3142	Service
+Ola Ride Receipt - â‚¹355 on 06-09-2024	Travel
+Netflix Monthly Subscription, Rs. 1980	Subscription
+Uber trip receipt #36248, Fare: â‚¹4822	Travel
+Netflix Monthly Subscription, Rs. 3820	Subscription
+Flipkart Order #64457 - â‚¹1550 paid	Retail
+Amazon Prime Subscription - â‚¹126	Subscription
+Vodafone Broadband Bill - â‚¹4297	Utility
+Invoice from H&M for Rs. 3832	Utility
+PowerGrid Electricity Bill - Amount: â‚¹1128	Utility
+UrbanClap Invoice - Home Cleaning - â‚¹2337	Service
+Dominoâ€™s Bill #41688 - â‚¹1591.00	Food
+Swiggy order 51533 delivered - â‚¹3248	Food
+Amazon.in order #53052 - Total â‚¹3086	Retail
+Amazon Prime Subscription - â‚¹4799	Subscription
+Starbucks Invoice - Amount â‚¹4369	Food
+Myntra Invoice #86798 - Amount: â‚¹4178	Retail
+UrbanClap Broadband Bill - â‚¹2697	Utility
+Uber trip receipt #64729, Fare: â‚¹1109	Travel
+Uber Electricity Bill - Amount: â‚¹1422	Utility
+Goibibo Booking #59890 - â‚¹2251	Travel
+Starbucks Invoice - Amount â‚¹1331	Food
+H&M Receipt - â‚¹3849 on 10-05-2024	Retail
+PowerGrid Broadband Bill - â‚¹2880	Utility
